@@ -5,6 +5,8 @@ import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
 // import { Pagination } from "swiper/modules";
 import GotoTop from "../../Component/GotoTop";
+import { Link } from "react-router-dom";
+
 
 function Registration() {
   const [isLoading, setIsLoading] = useState(true);
@@ -326,7 +328,7 @@ function Registration() {
                                 </li>
                                 <li>Online mode presentation will be considered on request (only for foreign participants)</li>
                               </ul>
-                              <button type="button" className="reg_btn"><a href="" className="links">For Registration</a></button>
+                              <button type="button" className="reg_btn"><Link to="" className="links">For Registration</Link></button>
                               <div className="reg_free">
                                 <img src="assets/images/free-book.jpg" alt="" />
                                 <p style={{ fontSize: "bold", color: "#3fb65f" }}>Each Registrant will get a free-complimentary copy of a book entitled “Fundamentals of Nanotechnology” (Price: ₹ 250/-)</p>
@@ -345,7 +347,7 @@ function Registration() {
                                 <li className="account_list"><b>Branch</b>     : Kalapatti</li>
                               </ul>
                               <div className="reg_sec_btns">
-                                <button type="button" className="pay_btn"><a href="" className="links">Fee Payment</a></button>
+                                <button type="button" className="pay_btn"><Link to="/" className="links">Fee Payment</a></button>
                               </div>
                             </div>
                           </div>
