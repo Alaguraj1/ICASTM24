@@ -182,7 +182,7 @@ function CourseHome3() {
 
               <div className="ci-item  col-md-3 home_topics">
                 <button className="home_topics_btn">
-                  <a href="/registration">View More Topics</a>
+                  <Link to="/registration">View More Topics</Link>
                 </button>
               </div>
 
