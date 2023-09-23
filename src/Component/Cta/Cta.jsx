@@ -15,6 +15,7 @@ function Cta() {
               Know More
             </Link>
           </div>
+          
           <div className="col-md-6 reg_fee_sec" >
             <h2 className="sec-title mb-15">
             Registration FEE 
