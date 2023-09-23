@@ -118,7 +118,7 @@ function Home3Footer() {
           <div className="copyright">
             <p>
               © 2023 ICASTM’24. All rights reserved | Concept by{" "}
-              <a href="https://irepute.in/" target="blank"> repute</a>
+              <Link to="https://irepute.in/" target="blank"> repute</Link>
             </p>
           </div>
         </div>
