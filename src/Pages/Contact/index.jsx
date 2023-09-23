@@ -5,6 +5,8 @@ import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
 import Map from "../../Component/Map";
 import GotoTop from "../../Component/GotoTop";
+import { Link } from "react-router-dom";
+
 
 function Contact() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,13 +32,13 @@ function Contact() {
                 <div>
                   <h5>Dr. P. Sakthivel</h5>
                   <p className="contact_event">For Event & Publication Query</p>
-                  <a href="mailto:sakthivel.p@kahedu.edu.in">sakthivel.p@kahedu.edu.in</a>
+                  <Link to="mailto:sakthivel.p@kahedu.edu.in">sakthivel.p@kahedu.edu.in</Link>
                   <p>9952806070</p>
                 </div>
                 <div style={{ marginTop: "30px" }}>
                   <h5>Dr. A.Manikandan</h5>
                   <p className="contact_event">For Registration Query </p>
-                  <a href="mailto:manikandan.ayyar@kahedu.edu.in">manikandan.ayyar@kahedu.edu.in</a>
+                  <Link to="mailto:manikandan.ayyar@kahedu.edu.in">manikandan.ayyar@kahedu.edu.in</Link>
                   <p>9884354800</p>
                 </div>
               </div>
@@ -44,13 +46,13 @@ function Contact() {
                 <div className="contact_details">
                   <h5>Dr. A. Shameem</h5>
                   <p className="contact_event">For Technical Query</p>
-                  <a href="mailto:shameem.abdulsamad@kahedu.edu.in">shameem.abdulsamad@kahedu.edu.in</a>
+                  <Link to="mailto:shameem.abdulsamad@kahedu.edu.in">shameem.abdulsamad@kahedu.edu.in</Link>
                   <p>8248644074</p>
                 </div>
                 <div   style={{ marginTop: "30px" }}>
                   <h5>Dr. R.Suresh</h5>
                   <p className="contact_event">For Accommodation and Travel Query</p>
-                  <a href="mailto:suresh.ranganathan@kahedu.edu.in">suresh.ranganathan@kahedu.edu.in</a>
+                  <Link to="mailto:suresh.ranganathan@kahedu.edu.in">suresh.ranganathan@kahedu.edu.in</Link>
                   <p>9941091461</p>
                 </div>
               </div>
@@ -58,7 +60,7 @@ function Contact() {
                 <div className="contact_details">
                   <h5>Mr. A.Daniel Das</h5>
                   <p className="contact_event">For Accommodation and Travel Query</p>
-                  <a href="mailto:danieldas.a@kahedu.edu.in">danieldas.a@kahedu.edu.in</a>
+                  <Link to="mailto:danieldas.a@kahedu.edu.in">danieldas.a@kahedu.edu.in</Link>
                   <p>8248786437</p>
                 </div>
               </div>
