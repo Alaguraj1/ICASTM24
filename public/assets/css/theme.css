@@ -398,7 +398,9 @@
     display: flex;
     justify-content: flex-start;
 }
-
+.topic{
+ margin-top:60px;
+}
 .course-item-1 {
     position: relative;
     width: 100%;
