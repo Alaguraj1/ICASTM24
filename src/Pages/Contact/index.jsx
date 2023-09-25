@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import Preloader from "../../Component/Preloader";
 import Home3Header from "../../Component/Headers/Home3Header";
 import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
@@ -9,16 +7,7 @@ import { Link } from "react-router-dom";
 
 
 function Contact() {
-  const [isLoading, setIsLoading] = useState(true);
-  let content = undefined;
-  useEffect(() => {
-    setIsLoading(false);
-  }, [isLoading]);
-
-  if (isLoading) {
-    content = <Preloader />;
-  } else {
-    content = (
+  return(
       <>
         <Home3Header  joinBtn={true} />
         {/* <Home3Header  /> */}
@@ -86,7 +75,4 @@ function Contact() {
       </>
     );
   }
-  return content;
-}
-
 export default Contact;
