@@ -347,7 +347,7 @@ function Registration() {
                                 <li className="account_list"><b>Branch</b>     : Kalapatti</li>
                               </ul>
                               <div className="reg_sec_btns">
-                                <button type="button" className="pay_btn"><Link to="/" className="links">Fee Payment</a></button>
+                                <button type="button" className="pay_btn"><Link to="/" className="links">Fee Payment</Link></button>
                               </div>
                             </div>
                           </div>
