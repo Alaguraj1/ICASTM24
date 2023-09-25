@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import Preloader from "../../Component/Preloader";
 import Home3Header from "../../Component/Headers/Home3Header";
 import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
@@ -9,16 +7,7 @@ import BlogCard from "../../Component/Cards/BlogCard";
 import GotoTop from "../../Component/GotoTop";
 
 function Committee() {
-  const [isLoading, setIsLoading] = useState(true);
-  let content = undefined;
-  useEffect(() => {
-    setIsLoading(false);
-  }, [isLoading]);
-
-  if (isLoading) {
-    content = <Preloader />;
-  } else {
-    content = (
+   return(
       <>
         <Home3Header  joinBtn={true} />
         <Banner title="Committee" background="assets/images/inner-banner.jpg" />
@@ -157,7 +146,5 @@ function Committee() {
       </>
     );
   }
-  return content;
-}
 
 export default Committee;
