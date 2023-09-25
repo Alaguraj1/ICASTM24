@@ -1129,4 +1129,7 @@
 		padding-left :20px;
 
 	}
+	.cta-section p{
+		margin-bottom: 0px;
+	}
 }
