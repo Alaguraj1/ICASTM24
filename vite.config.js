@@ -6,8 +6,3 @@ export default defineConfig({
   plugins: [react()],
 })
 
-{
-  "glob": "_redirects",
-  "input": "src",
-  "output": "/"
-}
