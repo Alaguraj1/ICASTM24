@@ -30,7 +30,7 @@ function Home() {
         <HomeThreeHero />
         <FeatureHome3 />
         <div className="container">
-          <h2 className=" text-center" style={{marginTop:"80px"}}>International Conference on Advancements in the Science and Technology of Materials (ICASTM’24)</h2>
+          <h2 className=" text-center topic">International Conference on Advancements in the Science and Technology of Materials (ICASTM’24)</h2>
         </div>
         <PopularCourse />
         <Event />
