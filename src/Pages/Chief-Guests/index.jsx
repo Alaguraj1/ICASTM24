@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import Preloader from "../../Component/Preloader";
+import React from "react";
 import Home3Header from "../../Component/Headers/Home3Header";
 import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
@@ -8,16 +7,8 @@ import FeatureCourse from "../../Component/Course/FeatureCourse";
 
 
 function ChiefGuests() {
-  const [isLoading, setIsLoading] = useState(true);
-  let content = undefined;
-  useEffect(() => {
-    setIsLoading(false);
-  }, [isLoading]);
 
-  if (isLoading) {
-    content = <Preloader />;
-  } else {
-    content = (
+ return(
       <>
         <Home3Header  joinBtn={true} />
         <Banner title="Chief Guests" background="assets/images/inner-banner.jpg" />
@@ -29,7 +20,4 @@ function ChiefGuests() {
       </>
     );
   }
-  return content;
-}
-
 export default ChiefGuests;
