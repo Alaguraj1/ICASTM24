@@ -321,7 +321,7 @@ function Registration() {
                               </ul>
                               <button type="button" className="reg_btn"><Link to="" className="links">For Registration</Link></button>
                               <div className="reg_free">
-                                <img src="assets/images/free-book.jpg" alt="" />
+                                <img src="assets/images/free-book-1.jpg" alt="" />
                                 <p style={{ fontSize: "bold", color: "#3fb65f" }}>Each Registrant will get a free-complimentary copy of a book entitled “Fundamentals of Nanotechnology” (Price: ₹ 250/-)</p>
 
 
