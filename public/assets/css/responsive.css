@@ -1070,6 +1070,34 @@
 		margin-top: 30px;
 	 }
 	
+	.topic {
+		margin-top: 20px;
+		font-size: 22px;
+	}
+
+	.mt-120 {
+		margin-top: 30px;
+	}
+
+	.ab-content h3 {
+		font-size: 24px;
+		margin-bottom: 5px;
+		line-height: 24px;
+	}
+
+	.popular-course-section {
+		padding-bottom: 20px;
+	}
+
+	.sec-title {
+		margin-bottom: 20px;
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+	.popular-course-section-3 {
+		padding-top: 30px;
+	}
 }
 
 
