@@ -881,6 +881,10 @@
 		font-size: 20px;
 		line-height: 30px;
 	}
+	.banner-date{
+		font-size:18px;
+		line-height:22px
+	}
 	footer .widget{
 		margin-top: 50px;
 	}
