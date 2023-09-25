@@ -3,7 +3,6 @@ import Home from "./Pages/Home";
 import Registration from "./Pages/Registration";
 import About from "./Pages/About";
 import ChiefGuests from "./Pages/Chief-Guests";
-import Error from "./Pages/Error";
 import Committee from "./Pages/Committee";
 import Contact from "./Pages/Contact";
 
@@ -35,10 +34,6 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
-  },
-  {
-    path: "*",
-    element: <Error />,
   },
 ]);
 
