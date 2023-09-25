@@ -1116,4 +1116,17 @@
 	.home_topics_btn{
 		padding: 8px 50px;
 	  }
+		.reg_free {
+		display: block;
+	}
+	.reg_free p{
+		margin-top: 10px;
+	}
+	.reg_details{
+		padding-left:20px;
+	}
+	.bank_details{
+		padding-left :20px;
+
+	}
 }
