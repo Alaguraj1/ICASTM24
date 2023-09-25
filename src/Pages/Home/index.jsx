@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import Preloader from "../../Component/Preloader";
 import Home3Header from "../../Component/Headers/Home3Header";
 import HomeThreeHero from "../../Component/Heros/HomeThreeHero";
 import FeatureHome3 from "../../Component/Features/FeatureHome3";
@@ -15,16 +13,7 @@ import Cta from "../../Component/Cta/Cta";
 
 
 function Home() {
-  const [isLoading, setIsLoading] = useState(true);
-  let content = undefined;
-  useEffect(() => {
-    setIsLoading(false);
-  }, [isLoading]);
-
-  if (isLoading) {
-    content = <Preloader />;
-  } else {
-    content = (
+   return(
       <>
         <Home3Header />
         <HomeThreeHero />
@@ -43,7 +32,5 @@ function Home() {
       </>
     );
   }
-  return content;
-}
-
+  
 export default Home;
