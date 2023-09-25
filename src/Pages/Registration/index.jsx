@@ -3,7 +3,6 @@ import Preloader from "../../Component/Preloader";
 import Home3Header from "../../Component/Headers/Home3Header";
 import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
-// import { Pagination } from "swiper/modules";
 import GotoTop from "../../Component/GotoTop";
 import { Link } from "react-router-dom";
 
@@ -12,15 +11,7 @@ function Registration() {
   const [isLoading, setIsLoading] = useState(true);
   const [activeView, setActiveView] = useState("Call for Papers");
  
-  let content = undefined;
-  useEffect(() => {
-    setIsLoading(false);
-  }, [isLoading]);
-
-  if (isLoading) {
-    content = <Preloader />;
-  } else {
-    content = (
+   return(
       <>
         <Home3Header  joinBtn={true} />
         <Banner title="Registration" background="assets/images/inner-banner.jpg" />
@@ -369,7 +360,4 @@ function Registration() {
       </>
     );
   }
-  return content;
-}
-
 export default Registration;
