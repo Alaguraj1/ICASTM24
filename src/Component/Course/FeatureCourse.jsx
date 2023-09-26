@@ -33,7 +33,7 @@ function FeatureCourse() {
                 <h4>
                   Dr. P. K. Praseetha
                 </h4>
-                <p style={{ fontSize: "14px" }}>Professor and Head,  Department of Nanotechnology,<b> Noorul Islam Centre for Higher Education</b>, Nagercoil, India.</p>
+                <p style={{ fontSize: "14px" }}><b>Professor and Head,  Department of Nanotechnology,</b><br/> Noorul Islam Centre for Higher Education, Nagercoil, India.</p>
               </div>
             </div>
           </div>

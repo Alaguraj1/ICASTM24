@@ -29,7 +29,7 @@ function Committee() {
                 <ul className="orgnize_ul">
                   <li><b>Dr. A. Manikandan</b>, Associate Professor, Department of Chemistry, KAHE.</li>
                   <li><b>Dr. D. Manoj</b>, Associate Professor, Department of Chemistry, KAHE.</li>
-                  <li><b>Dr. S. Rajamanikandan</b>, Associate Professor, Department of Biochemistry, KAHE</li>
+                  <li><b>Dr. S. Rajamanikandan</b>, Associate Professor, Department of Biochemistry, KAHE.</li>
                   <li><b>Dr. R. Suresh</b>, Associate Professor, Department of Chemistry, KAHE.</li>
                   <li><b>Dr. V. Kavimani</b>, Assistant Professor, Department of Mechanical Engineering, KAHE.</li>
                   <li><b>Dr. V. Siva</b>, Assistant Professor, Department of Physics, KAHE.</li>
@@ -56,15 +56,15 @@ function Committee() {
             <div className="row">
               <div className="col-md-6">
                 <ul className="orgnize_ul">
-                  <li><b>Prof. Dongjin Choi</b>, Hongik University, Sejong-city, South Korea</li>
+                  <li><b>Prof. Dongjin Choi</b>, Hongik University, Sejong-city, South Korea.</li>
                   <li><b>Prof. Sarute Ummartyotin</b>, Thammasat University, Bangkok, Thailand.</li>
                   <li><b>Prof. Stefan Antohe</b>, University of Bucharest, Bucharest, Romania.</li>
                   <li><b>Prof. Okazaki Masakazu</b>, Nagaoka University of Technology, Japan.</li>
                   <li><b>Prof. Daniel Braithwaite</b>, Advanced Materials and Correlated Electron Physics Team, CEA, Grenoble, France.</li>
-                  <li><b>Prof. M.V. Reddy</b>, Nouveau Monde Graphite, Montreal, QC, Canada</li>
+                  <li><b>Prof. M.V. Reddy</b>, Nouveau Monde Graphite, Montreal, QC, Canada.</li>
                   <li><b>Prof. Mariadhas Valan Arasu</b>,  King Saud University, Riyadh, Saudi Arabia.</li>
                   <li><b>Prof.  K. Karuppasamy</b>,  Dongguk University-Seoul, South Korea.</li>
-                  <li><b>Prof.. Suresh Sagadevan</b>, Universiti Malaya, Malaysia</li>
+                  <li><b>Prof.. Suresh Sagadevan</b>, Universiti Malaya, Malaysia.</li>
                   <li><b>Prof. Ramesh T Subramaniam</b>, University of Malaya, Kuala Lumpur, Malaysia.</li>
                   <li><b>Prof. Yoshiya Uwatoko</b>, University of Tokyo, Japan. </li>
                   <li><b>Prof. Selvan Bellan</b>, Niigata University, Japan.</li>
@@ -95,20 +95,21 @@ function Committee() {
               <div className="col-md-6">
                 <ul className="orgnize_ul">
                   <li><b>Prof. A.Thamizavel</b>, Tata Institute of Fundamental Research, Mumbai.</li>
-                  <li><b>Prof. N. Vijayan</b>, Senior Principal Scientist, National Physical Laboratory, New Delhi</li>
+                  <li><b>Prof. N. Vijayan</b>, Senior Principal Scientist, National Physical Laboratory, New Delhi.</li>
+                  <li><b>Prof. V.Rajendran</b>, Vice Chancellor, AMET university, Chennai.</li>
                   <li><b>Prof. N.V.Ramarao</b>, Defence Metallurgical Research Laboratory, Hyderabad.</li>
                   <li><b>Prof. Arun Torris</b>, CSIR – National Chemical laboratory, Pune.</li>
                   <li><b>Prof. G. Bhagavannarayana</b>, VSM Group of Institutions, RC Puram. AP.</li>
                   <li><b>Prof. Muthusankar Eswaran</b>, Indian Institute of Technology, Jammu.</li>
                   <li><b>Prof. Sanjay Singh</b>, Indian Institute of Technology (BHU), Varanasi.</li>
                   <li><b>Prof. S. Kumaran</b>, National Institute of Technology, Tiruchirappalli</li>
-                  <li><b>Prof. Mhd. Ikram</b>, National Institute of Technology, Kashmir</li>
+                  <li><b>Prof. Mhd. Ikram</b>, National Institute of Technology, Kashmir.</li>
                   <li><b>Prof. N. Ponpandian</b>, Bharathiar University, Coimbatore.</li>
                   <li><b>Prof. Manoharan</b>, Annamalai University, Chidambaram.</li>
                   <li><b>Prof. Manickam Mahendran</b>,  Thiagarajar College of Engineering, Madurai.</li>
-                  <li><b>Prof. Venkatesu</b>, University of Delhi, New Delhi</li>
+                  <li><b>Prof. Venkatesu</b>, University of Delhi, New Delhi.</li>
                   <li><b>Prof. V. Ramasubramanian</b>, Vellore Institute of Technology, Vellore.</li>
-                  <li><b>Prof. B. Karthikeyan</b>, National Institute of Technology, Tiruchirappalli</li>
+                  <li><b>Prof. B. Karthikeyan</b>, National Institute of Technology, Tiruchirappalli.</li>
                   <li><b>Prof. Ratnesh Tiwari</b>, Dr. C.V. Raman University, Bilaspur.</li>
                   <li><b>Prof. K. Soorya Prakash</b>, Anna University Regional Campus, Coimbatore.</li>
                   <li><b>Prof. S. Udhayakumar</b>, PSG College of Technology, Coimbatore.</li>
@@ -120,22 +121,23 @@ function Committee() {
                   <li><b>Prof. Muthu Senthil Pandian</b>, SSN College of Engineering, Chennai.</li>
                   <li><b>Prof.  A. Mahamani</b>, Vemu Insitute of Technology, Chittoor.</li>
                   <li><b>Prof. Pragati Kumar</b>, Central University of Jammu, Jammu.</li>
-                  <li><b>Prof.  Dr.P.Chakkravarthy</b>, IIST, Thiruvananthapuram, Kerala</li>
-                  <li><b>Prof.  Dr.S.P.Kumaresh Babu</b>, Professor, NIT, Trichirapalli</li>
-                  <li><b>Prof.  Dr. D. Kesavan</b>, IIT, Palakad</li>
-                  <li><b>Prof. Dr. N. M. Sivaram</b>, NIT, Karaikal, Puducherry </li>
-                  <li><b>Prof. P. Mani</b>, Anna University Regional campus, Tiruchirappalli</li>
+                  <li><b>Prof.  Dr.P.Chakkravarthy</b>, IIST, Thiruvananthapuram, Kerala.</li>
+                  <li><b>Prof.  Dr.S.P.Kumaresh Babu</b>, NIT, Trichirapalli.</li>
+                  <li><b>Prof.  Dr. D. Kesavan</b>, IIT, Palakad.</li>
+                  <li><b>Prof. Dr. N. M. Sivaram</b>, NIT, Karaikal, Puducherry. </li>
+                  <li><b>Prof. P. Mani</b>, Anna University Regional campus, Tiruchirappalli.</li>
                   <li><b>Prof. R.D. Eithiraj</b>, Vellore Institute of Technology, Chennai.</li>
                   <li><b>Prof.T.C. Sabari Girisun</b>, Bharathidasan University, Tiruchirappalli.</li>
-                  <li><b>Prof. Ramalingam Gopal</b>, Alagappa University, Karaikudi</li>
+                  <li><b>Prof. Ramalingam Gopal</b>, Alagappa University, Karaikudi.</li>
                   <li><b>Prof. Ravithej Singh</b>, Indian Institute of chemical Technology, Hyderabad.</li>
                   <li><b>Prof. P. Hemaprabha Avinashilingham</b>, Institute for Home Science and Higher Education for Women, Coimbatore.</li>
                   <li><b>Prof. K. Ramachandran</b>, SRM University, Vadapalani.</li>
                   <li><b>Prof. Govindasamy Murugadoss</b>, Sathyabama Institute Science and Technology, Chennai.</li>
                   <li><b>Prof. T. Elangovan</b>, Periyar University, Salem.</li>
+                  <li><b>Prof. S. Sriram</b>, SASTRA Deemed to be University, Thanjavur.</li>
                   <li><b>Prof. Davit B. Dhruv</b>, Saurashtra University, Rajkot.</li>
-                  <li><b>Prof. Pankaj Biswas</b>, Shri Mata Vaishno Devi University, Jammu </li>
-                  <li><b>Prof. Netram Kaurav</b>, Holkar Science College, Indore</li>
+                  <li><b>Prof. Pankaj Biswas</b>, Shri Mata Vaishno Devi University, Jammu. </li>
+                  <li><b>Prof. Netram Kaurav</b>, Holkar Science College, Indore.</li>
                 </ul>
               </div>
             </div>
