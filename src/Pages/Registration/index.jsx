@@ -10,21 +10,18 @@ import { Link } from "react-router-dom";
 function Registration() {
   const [isLoading, setIsLoading] = useState(true);
   const [activeView, setActiveView] = useState("Call for Papers");
- 
-   return(
-      <>
-        <Home3Header  joinBtn={true} />
-        <Banner title="Registration" background="assets/images/inner-banner.jpg" />
-        {/* course section start */}
-        <section className="course-details-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="single-course-area">
-                  {/* <div className="sc-thumb">
-                    <img src="assets/images/single-course/1.jpg" alt="" />
-                  </div> */}
-                  <div className="course-tab-wrapper">
+
+  return (
+    <>
+      <Home3Header joinBtn={true} />
+      <Banner title="Registration" background="assets/images/inner-banner.jpg" />
+      <section className="course-details-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="single-course-area">
+
+                {/* <div className="course-tab-wrapper">
                     <ul className="course-tab-btn nav nav-tabs">
                       <li>
                         <a
@@ -55,9 +52,7 @@ function Registration() {
                         </a>
                       </li>
                     </ul>
-                    {/* Tab Content  */}
                     <div className="tab-content">
-                      {/* Overview Tab  */}
                       {activeView === "Call for Papers" && (
                         <div
                           className="tab-pane fade in show active"
@@ -79,8 +74,7 @@ function Registration() {
                           </div>
                         </div>
                       )}
-                      {/* Overview Tab  */}
-                      {/* Curriculum Tab  */}
+                     
                       {activeView === "Topics" && (
                         <div
                           className="tab-pane fade in show active"
@@ -295,8 +289,7 @@ function Registration() {
 
                         </div>
                       )}
-                      {/* Curriculum Tab  */}
-                      {/* Instructors Tab  */}
+                     
                       {activeView === "Registration" && (
                         <div
                           className="tab-pane fade in show active"
@@ -304,61 +297,66 @@ function Registration() {
                           role="tabpanel"
                         >
 
-                          <div className="row">
-                            <h3 className="col-12 reg_head" style={{ textAlign: "center", marginBottom: "50px" }}>Registration</h3>
-
-                            <div className="col-md-6 reg_details">
-                              <h5>Registration FEE </h5>
-                              <p className="reg_li"><b>For Indian Participants</b> : ₹ 1,200<br />
-                                <b>For Foreigners</b>:     $ 50</p>
-                              <p className="reg_paid">₹ 600 has to be paid as participation fee for additional members.</p>
-
-                              <h6>Note :</h6>
-                              <ul className="note_list">
-                                <li>
-                                  Article Publication Charge will be intimated separately through e-mail based on selection of the Journal/ Conference Proceedings if applicable.
-                                </li>
-                                <li>Online mode presentation will be considered on request (only for foreign participants)</li>
-                              </ul>
-                              <button type="button" className="reg_btn"><Link to="" className="links">For Registration</Link></button>
-                              <div className="reg_free">
-                                <img src="assets/images/free-book.jpg" alt="" />
-                                <p style={{ fontSize: "bold", color: "#3fb65f" }}>Each Registrant will get a free-complimentary copy of a book entitled “Fundamentals of Nanotechnology” (Price: ₹ 250/-)</p>
-
-
-                              </div>
-                            </div>
-                            <div className="col-md-6 bank_details">
-                              <h5>Bank Account Details</h5>
-                              <ul className="account_lists">
-                                <li className="account_list"><b>Bank </b>    : HDFC</li>
-                                <li className="account_list"><b>Name </b>  : KAHE IEEE</li>
-                                <li className="account_list"><b>A/c. No</b>: 50100660052321</li>
-                                <li className="account_list"><b>Type</b>     : Savings</li>
-                                <li className="account_list"><b>IFSC code</b>: HDFC0001068</li>
-                                <li className="account_list"><b>Branch</b>     : Kalapatti</li>
-                              </ul>
-                              {/* <div className="reg_sec_btns">
-                                <button type="button" className="pay_btn"><Link to="/" className="links">Fee Payment</Link></button>
-                              </div> */}
-                            </div>
-                          </div>
+                          
                         </div>
                       )}
 
                     </div>
+                  </div> */}
+
+                <div className="row">
+                  {/* <h3 className="col-12 reg_head" style={{ textAlign: "center", marginBottom: "50px" }}>Registration</h3> */}
+
+                  <div className="col-md-8 reg_details">
+                    <h5>Registration FEE </h5>
+                    <p className="reg_li"><b>For Indian Participants</b> : ₹ 1,200<br />
+                      <b>For Foreigners</b>:     $ 50</p>
+                    <p className="reg_paid">₹ 600 has to be paid as participation fee for additional members.</p>
+
+                    <h6>Note :</h6>
+                    <ul className="note_list">
+                      <li>
+                        Article Publication Charge will be intimated separately through e-mail based on selection of the Journal/ Conference Proceedings if applicable.
+                      </li>
+                      <li>Online mode presentation will be considered on request (only for foreign participants)</li>
+                    </ul>
+                    <div style={{display:"flex",justifyContent:"center"}}>
+                    <button type="button" className="reg_btn"><Link to="" className="links">For Registration</Link></button>
+                    </div>
                   </div>
+                  <div className="col-md-4 bank_details">
+                    <h5>Bank Account Details</h5>
+                    <ul className="account_lists">
+                      <li className="account_list"><b>Bank </b>    : HDFC</li>
+                      <li className="account_list"><b>Name </b>  : KAHE IEEE</li>
+                      <li className="account_list"><b>A/c. No</b>: 50100660052321</li>
+                      <li className="account_list"><b>Type</b>     : Savings</li>
+                      <li className="account_list"><b>IFSC code</b>: HDFC0001068</li>
+                      <li className="account_list"><b>Branch</b>     : Kalapatti</li>
+                    </ul>
 
+                  </div>
                 </div>
-              </div>
+                <div className="row" style={{marginTop:"40px"}}>
+                  <div className=" col-md-8">
+                    <img src="assets/images/nanotechnology.jpeg" alt="" style={{width:"100%"}} />
+                  </div>
+                  <div className="col-md-4">
+                  <p className="free-book-content">Each Registrant will get a free-complimentary copy of a book entitled “Fundamentals of Nanotechnology” (Price: ₹ 250/-)</p>
 
+                  </div>
+                </div>
+
+              </div>
             </div>
+
           </div>
-        </section>
-        {/* course section end  */}
-        <Footer />
-        <GotoTop />
-      </>
-    );
-  }
+        </div>
+      </section>
+      {/* course section end  */}
+      <Footer />
+      <GotoTop />
+    </>
+  );
+}
 export default Registration;

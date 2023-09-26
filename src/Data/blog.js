@@ -36,21 +36,21 @@ export const blogs = [
   },
   {
     id: 6,
-    img: "assets/images/home/blog/3.jpg",
+    img: "assets/images/sakthivel.jpg",
     title: "Convenor",
     name:"Dr. P. Sakthivel",
     roll:"<b>Associate Professor –Physics</b>,<br/> Faculty of Engineering, Karpagam Academy of Higher Education."
   },
   {
     id: 7,
-    img: "assets/images/home/blog/3.jpg",
+    img: "assets/images/ravi.jpg",
     title: "Co-Convenor",
     name:"Dr. K. Ravichandran",
     roll:"<b>Associate Professor and Head</b>,<br/> Department of Physics,<br/> A.V.V.M. Sri Pushpam College (Autonomous), Poondi."
   },
   {
     id: 8,
-    img: "assets/images/home/blog/3.jpg",
+    img: "assets/images/mangalaraja.jpg",
     title: "Co-Convenor",
     name:"Dr. Mangalaraja Ramalinga Viswanathan",
     roll:"<b>Professor</b>, Faculty of Engineering and Sciences, Universidad Adolfo Ibanez,<br/> Santiago, Chile."

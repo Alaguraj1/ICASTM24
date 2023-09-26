@@ -13,6 +13,9 @@ function Home3Header() {
   const handleFilter = (e) => {
     setActiveFilter(e.target.innerText);
   };
+  const menuClick = (() => {
+    window.scrollTo(0,0)
+  })
   return (
     <header
       className={` header-03  sticky ${windowPosition > 0 && "fix-header animated fadeInDown"
@@ -26,7 +29,7 @@ function Home3Header() {
               <Link className="navbar-brand" to="/">
                 {/* <img src="assets/images/ICASTM-Logo.png" alt="" /> */}
                 <h3 className="logo-head">ICASTM’24</h3>
-                <p className="logo-para">International Conference on Advancements<br/>in the Science and Technology of Materials</p>
+                <p className="logo-para">International Conference on Advancements<br />in the Science and Technology of Materials</p>
 
               </Link>
               {/* logo End */}
@@ -49,37 +52,38 @@ function Home3Header() {
                 <ul className="navbar-nav">
                   <li
                     className="menu-item-has-children"
+                    onClick={() => {menuClick()}}
                   >
                     <Link to="/">Home</Link>
                   </li>
                   <li
                     className="menu-item-has-children"
                     name="about"
+                    onClick={() => {menuClick()}}
                   >
                     {/* <a>Pages</a> */}
                     <Link to="/about">About</Link>
                   </li>
 
-                  <li>
+                  <li className="menu-item-has-children"   onClick={() => {menuClick()}}>
                     <Link to="/chief-guests">Chief Guests</Link>
                   </li>
-                  <li
-                    className="menu-item-has-children"
-                  >
+
+                  <li className="menu-item-has-children"  onClick={() => {menuClick()}}>
+                    <Link to="/call-for-papers">Call For Papers</Link>
+                  </li>
+
+                  <li className="menu-item-has-children"   onClick={() => {menuClick()}}>
                     <Link to="/registration">Registration</Link>
                   </li>
 
                   <li
                     className="menu-item-has-children"
-                    onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "blog" ? false : "blog"
-                      )
-                    }
+                    onClick={() => {menuClick()}}
                   >
                     <Link to="/committee">Committee</Link>
                   </li>
-                  <li>
+                  <li   className="menu-item-has-children" onClick={() => {menuClick()}}>
                     <Link to="/contact">Contact</Link>
                   </li>
                 </ul>

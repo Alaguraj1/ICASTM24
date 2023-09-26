@@ -99,7 +99,7 @@ function Committee() {
                   <li><b>Prof. V.Rajendran</b>, Vice Chancellor, AMET university, Chennai.</li>
                   <li><b>Prof. N.V.Ramarao</b>, Defence Metallurgical Research Laboratory, Hyderabad.</li>
                   <li><b>Prof. Arun Torris</b>, CSIR – National Chemical laboratory, Pune.</li>
-                  <li><b>Prof. G. Bhagavannarayana</b>, VSM Group of Institutions, RC Puram. AP.</li>
+                  <li><b>Prof. G. Bhagavannarayana</b>, VSM Group of Institutions, RC Puram, AP.</li>
                   <li><b>Prof. Muthusankar Eswaran</b>, Indian Institute of Technology, Jammu.</li>
                   <li><b>Prof. Sanjay Singh</b>, Indian Institute of Technology (BHU), Varanasi.</li>
                   <li><b>Prof. S. Kumaran</b>, National Institute of Technology, Tiruchirappalli</li>

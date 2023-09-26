@@ -10,7 +10,7 @@ function CourseHome3() {
     },
   };
   return (
-    <section className="popular-course-section-3">
+    <section className="popular-course-section-3" >
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">

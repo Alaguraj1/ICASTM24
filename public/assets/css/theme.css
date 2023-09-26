@@ -100,7 +100,9 @@
     color: #c2bed0;
 }
 
-
+.paper-section{
+    margin-top: 60px;
+}
 
 .navbar-expand-lg .navbar-nav li .sub-menu {
     background: #fff;
@@ -2848,6 +2850,11 @@ footer .widget ul li a:hover {
     justify-content: center;
 }
 
+.free-book-content{
+font-size: 24px;
+color: #3fb65f;
+line-height: 35px;
+}
 /* .feature-item img {
     position: absolute;
     left: 45px;
@@ -2872,6 +2879,7 @@ footer .widget ul li a:hover {
 .popular-course-section-3 {
     position: relative;
     padding: 60px 0px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .popular-course-section-3 .sec-desc {
