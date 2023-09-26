@@ -71,7 +71,8 @@ function Registration() {
                             <div className="col-lg-8 call-paper">
                               <h4>Call for Papers</h4>
                               <p>
-                                Authors are invited to submit their original and unpublished work for the conference. All the abstracts of the accepted/presented papers will be published in the conference proceedings (with ISBN). After a double-blind review of the full-length paper the selected manuscripts will be published in “Materials Today Proceedings” (Indexed in Scopus & INSPEC).  We are also planning to publish the selected papers in SCI indexed Journals (Elsevier, Springer) based on the quality and merit of the work.
+                                Authors are invited to submit their original and unpublished work for the conference. All the abstracts of the accepted/presented papers will be published in the conference proceedings (with ISBN). After a double-blind review of the full-length paper the selected manuscripts will be published in Web of Science, Scopus, INSPEC and Chemical Abstracts Service indexed conference proceedings.
+                                We are also planning to publish the selected papers in SCI, SCOPUS indexed Journals based on the quality and merit of the work.
                                 The theme of the conference covers a broad spectrum of Materials Science.
                               </p>
                             </div>
@@ -337,9 +338,9 @@ function Registration() {
                                 <li className="account_list"><b>IFSC code</b>: HDFC0001068</li>
                                 <li className="account_list"><b>Branch</b>     : Kalapatti</li>
                               </ul>
-                              <div className="reg_sec_btns">
+                              {/* <div className="reg_sec_btns">
                                 <button type="button" className="pay_btn"><Link to="/" className="links">Fee Payment</Link></button>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>

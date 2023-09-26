@@ -28,29 +28,15 @@ function HomeThreeHero() {
             >
               <div className="container">
                 <div className="row">
-                  {/* <div className="col-lg-12">
-                    <div className="slider-content">
-                      <div className="sub animated">
-                      </div>
-                      <h3 className="animated banner-head">
-                      International Conference on Advancements in the Science and Technology of Materials(ICASTM’24)
-                      </h3>
-                      <p className="banner-date">Date: 29 - 30, January 2024<br/>Venue: MBA Seminar Hall, KAHE</p>
-                      <Link to="/registration" className="animated bisylms-btn-3">
-                        Registration
-                      </Link>
-                    </div>
-                  </div> */}
-
+              
                   <div className="col-lg-12">
                     <div className="slider-content text-center">
-                      <div className="sub animated">
-                        Organize
-                      </div>
+                      {/* <div className="sub animated">
+                      </div> */}
                       <h3 className="animated">
                         International Conference on Advancements in the Science<br /> and Technology of Materials (ICASTM’24)
                       </h3>
-                      <p className="banner-date">Date: 29 - 30, January 2024<br />Venue: MBA Seminar Hall, KAHE</p>
+                      <p className="banner-date">Date: 29 - 30, January 2024</p>
                       <Link to="/registration" className="animated bisylms-btn-3">
                         Registration
                       </Link>
@@ -75,13 +61,13 @@ function HomeThreeHero() {
                 <div className="row">
                 <div className="col-lg-12">
                     <div className="slider-content text-center">
-                      <div className="sub animated">
+                      {/* <div className="sub animated">
                         Organize
-                      </div>
+                      </div> */}
                       <h3 className="animated">
                         International Conference on Advancements in the Science<br /> and Technology of Materials (ICASTM’24)
                       </h3>
-                      <p className="banner-date">Date: 29 - 30, January 2024<br />Venue: MBA Seminar Hall, KAHE</p>
+                      <p className="banner-date">Date: 29 - 30, January 2024</p>
                       <Link to="/registration" className="animated bisylms-btn-3">
                         Registration
                       </Link>
