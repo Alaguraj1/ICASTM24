@@ -37,6 +37,7 @@ function HomeThreeHero() {
                         International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST)
                       </h3>
                       <p className="banner-date">Date: 29 - 30, January 2024</p>
+                      <p className="banner-place">Karpagam Academy of Higher Education, <br/>Coimbatore-641 021,<br/> Tamilnadu, India.</p>
                       <Link to="/registration" className="animated bisylms-btn-3">
                         Registration
                       </Link>
@@ -68,6 +69,7 @@ function HomeThreeHero() {
                         International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST)
                       </h3>
                       <p className="banner-date">Date: 29 - 30, January 2024</p>
+                      <p className="banner-place">Karpagam Academy of Higher Education,<br/> Coimbatore-641 021, <br/>Tamilnadu, India.</p>
                       <Link to="/registration" className="animated bisylms-btn-3">
                         Registration
                       </Link>

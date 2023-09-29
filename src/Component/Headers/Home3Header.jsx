@@ -91,7 +91,7 @@ function Home3Header() {
               {/* Nav Menu End  */}
 
               {/* Join Btn  */}
-              <Link to="/registration" className="join-btn">
+              <Link to="https://forms.gle/xDV8Wu4WwP5mQq5e7" className="join-btn" target="blank">
                 Registration
               </Link>
               {/* Join Btn  */}

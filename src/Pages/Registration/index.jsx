@@ -342,7 +342,7 @@ function Registration() {
                     <img src="assets/images/nanotechnology.jpeg" alt="" style={{width:"100%"}} />
                   </div>
                   <div className="col-md-4">
-                  <p className="free-book-content">Each Registrant will get a free-complimentary copy of a book entitled “Fundamentals of Nanotechnology” (Price: ₹ 250/-)</p>
+                  <p className="free-book-content">First 100 registrant will get a free-complimentary copy book entitled “Fundamentals of Nanotechnology” (Price: ₹ 250/-)</p>
 
                   </div>
                 </div>

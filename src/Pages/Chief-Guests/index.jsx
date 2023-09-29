@@ -8,16 +8,16 @@ import FeatureCourse from "../../Component/Course/FeatureCourse";
 
 function ChiefGuests() {
 
- return(
-      <>
-        <Home3Header  joinBtn={true} />
-        <Banner title="Chief Guests" background="assets/images/inner-banner.jpg" />
-        <section className="instructor-section">
-              <FeatureCourse />
-        </section>
-        <Footer />
-        <GotoTop />
-      </>
-    );
-  }
+  return (
+    <>
+      <Home3Header joinBtn={true} />
+      <Banner title="Chief Guests" background="assets/images/inner-banner.jpg" />
+      <section className="instructor-section">
+        <FeatureCourse />
+      </section>
+      <Footer />
+      <GotoTop />
+    </>
+  );
+}
 export default ChiefGuests;

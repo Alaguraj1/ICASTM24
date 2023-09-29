@@ -103,6 +103,11 @@
 .paper-section{
     margin-top: 60px;
 }
+.banner-place{
+    font-size: 18px;
+    color: white !important;
+
+}
 
 .navbar-expand-lg .navbar-nav li .sub-menu {
     background: #fff;
@@ -7126,3 +7131,4 @@ Profile Page
     padding: 17px 0;
     transition: all 0.1s ease-out;
 }
+

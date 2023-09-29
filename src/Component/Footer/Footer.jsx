@@ -10,7 +10,7 @@ function Footer({ getStart }) {
           <div className="col-lg-12 text-center">
             <div className="copyright">
               <p>
-              © 2023 ICASTM’24. All rights reserved | Concept by{" "}
+              © 2023 ICRAMST. All rights reserved | Concept by{" "}
                 <Link to="https://irepute.in/" target="blank"> repute</Link>
               </p>
             </div>

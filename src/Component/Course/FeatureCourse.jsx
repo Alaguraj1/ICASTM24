@@ -20,7 +20,7 @@ function FeatureCourse() {
             <FeatureCourseCard key={cours.id} course={cours} />
           ))}
         </div>
-        <div className='row'>
+        {/* <div className='row'>
           <div className="col-lg-4 col-md-6">
             <div className="feature-course-item-3">
               <div className="fcf-thumb">
@@ -40,7 +40,7 @@ function FeatureCourse() {
           <div className="col-lg-8 col-md-6">
             <img src="assets/images/kahe.jpg" alt="" className="kahe-img" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
