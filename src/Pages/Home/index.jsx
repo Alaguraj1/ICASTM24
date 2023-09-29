@@ -1,10 +1,9 @@
 import Home3Header from "../../Component/Headers/Home3Header";
 import HomeThreeHero from "../../Component/Heros/HomeThreeHero";
 import FeatureHome3 from "../../Component/Features/FeatureHome3";
-import CourseHome3 from "../../Component/Course/CourseHome3";
+import PopularTopics from "../../Component/Course/PopularTopics";
 import FeatureCourse from "../../Component/Course/FeatureCourse";
-// import CallAction from "../../Component/CallAction";
-import Home3Footer from "../../Component/Footer/Home3Footer";
+import Footer from "../../Component/Footer/Footer";
 import GotoTop from "../../Component/GotoTop";
 import Event from "../../Component/Event/Event";
 import PopularCourse from '../../Component/Course/PopularCourse'
@@ -23,11 +22,10 @@ function Home() {
         </div>
         <PopularCourse />
         <Event />
-        <CourseHome3 />
+        <PopularTopics />
         <FeatureCourse />
-        {/* <CallAction /> */}
         <Cta />
-        <Home3Footer />
+        <Footer />
         <GotoTop />
       </>
     );

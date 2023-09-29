@@ -1,14 +1,14 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade, Pagination } from "swiper/modules";
-import { course } from "../../Data/course";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, EffectFade, Pagination } from "swiper/modules";
+// import { course } from "../../Data/course";
 import { Link } from "react-router-dom";
-function CourseHome3() {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return "<span class=" + className + " myPagination" + "></span>";
-    },
-  };
+function PopularTopics() {
+  // const pagination = {
+  //   clickable: true,
+  //   renderBullet: function (index, className) {
+  //     return "<span class=" + className + " myPagination" + "></span>";
+  //   },
+  // };
   return (
     <section className="popular-course-section-3" >
       <div className="container">
@@ -196,4 +196,4 @@ function CourseHome3() {
   );
 }
 
-export default CourseHome3;
+export default PopularTopics;

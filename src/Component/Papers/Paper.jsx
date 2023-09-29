@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import CourseHome3 from "../Course/CourseHome3";
+// import { Link } from "react-router-dom";
+// import CourseHome3 from "../Course/CourseHome3";
 
 function Paper() {
     return (

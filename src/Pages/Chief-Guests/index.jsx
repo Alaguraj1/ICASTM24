@@ -15,7 +15,7 @@ function ChiefGuests() {
         <section className="instructor-section">
               <FeatureCourse />
         </section>
-        <Footer getStart={true} />
+        <Footer />
         <GotoTop />
       </>
     );
