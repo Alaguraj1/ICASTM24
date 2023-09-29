@@ -321,7 +321,7 @@ function Registration() {
                       <li>Online mode presentation will be considered on request (only for foreign participants)</li>
                     </ul>
                     <div style={{display:"flex",justifyContent:"center"}}>
-                    <button type="button" className="reg_btn"><Link to="" className="links">For Registration</Link></button>
+                    <button type="button" className="reg_btn"><Link to="https://forms.gle/xDV8Wu4WwP5mQq5e7" target="blank" className="links">For Registration</Link></button>
                     </div>
                   </div>
                   <div className="col-md-4 bank_details">

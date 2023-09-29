@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 
 function Cta() {
+
+  const menuClick = (() => {
+    window.scrollTo(0,0)
+  })
+
   return (
     <section
       className="cta-section"
@@ -11,7 +16,7 @@ function Cta() {
           <div className="col-md-6" style={{ paddingRight: "75px" }}>
             <h2 className="sec-title mb-15"> Call for Papers</h2>
             <p>Authors are invited to submit their original and unpublished work for the conference.<br/>All the abstracts of the accepted/presented papers will be published in the conference proceedings </p>
-            <Link to="/registration" className="bisylms-btn">
+            <Link to="/registration" className="bisylms-btn"  onClick={() => {menuClick()}}>
               Know More
             </Link>
           </div>
@@ -25,7 +30,7 @@ function Cta() {
               <br /> For Foreigners 	         :     $ 50
             </p>
             <p>₹ 600 has to be paid as participation fee for additional members.</p>
-            <Link to="/registration" className="bisylms-btn">
+            <Link to="/registration" className="bisylms-btn"  onClick={() => {menuClick()}}>
               Registration
             </Link>
           </div>
