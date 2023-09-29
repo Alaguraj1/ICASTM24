@@ -28,7 +28,7 @@ function Home3Header() {
               {/* logo Start */}
               <Link className="navbar-brand" to="/">
                 {/* <img src="assets/images/ICASTM-Logo.png" alt="" /> */}
-                <h3 className="logo-head">ICASTM’24</h3>
+                <h3 className="logo-head">ICRAMST</h3>
                 <p className="logo-para">International Conference on Advancements<br />in the Science and Technology of Materials</p>
 
               </Link>
