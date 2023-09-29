@@ -108,7 +108,23 @@
     color: white !important;
 
 }
-
+.abstract-download{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.abstract-download li{
+    padding: 6px 14px;
+    color: white;
+    background-color: #3fb65f;
+    border-radius: 4px;   
+}
+.abstract-download li a{
+    color: white;
+}
+.abstract-download li:first-child{
+    margin-right: 20px;
+}
 .navbar-expand-lg .navbar-nav li .sub-menu {
     background: #fff;
     width: 230px;

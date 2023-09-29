@@ -9,12 +9,20 @@ function PopularTopics() {
   //     return "<span class=" + className + " myPagination" + "></span>";
   //   },
   // };
+  const menuclick = (() => {
+    window.scrollTo(0,0)
+  })
   return (
     <section className="popular-course-section-3" >
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
             <h2 className="sec-title mb-15">Popular Topics</h2>
+            <h6>Downloads</h6>
+            <ul className="abstract-download">
+              <li>Brochure</li>
+              <li><a href="assets/images/abstract_template.pdf" target="_blank" rel="noopener noreferrer" >Abstract Template</a></li>
+            </ul>
           </div>
         </div>
         <div className="row">
@@ -182,7 +190,7 @@ function PopularTopics() {
 
               <div className="ci-item  col-md-3 home_topics">
                 <button className="home_topics_btn">
-                  <Link to="/registration">View More Topics</Link>
+                  <Link to="/call-for-papers" onClick={() => menuclick()}>View More Topics</Link>
                 </button>
               </div>
 

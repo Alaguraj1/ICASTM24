@@ -15,19 +15,24 @@ function Contact() {
         <section className="contact-section">
           <div className="container">
             {/* <h2 style={{ marginBottom: "50px" }}>Contact Us</h2> */}
+            <div style={{textAlign:"center",marginBottom:"50px"}}>
+              <h5 style={{marginBottom:"10px"}}> International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST)</h5>
+              <p  style={{marginBottom:"7px",fontSize: "14px", color:"black",lineHeight:"20px", fontWeight:"600"}}>Karpagam Academy of Higher Education,<br/> Coimbatore-641 021,<br/> Tamilnadu, India.</p>
+              <Link to="mailto:icramst@kahedu.edu.in"><b>Mail</b>: icramst@kahedu.edu.in</Link>
+            </div>
 
             <div className="row">
               <div className="col-md-4">
                 <div>
                   <h5>Dr. P. Sakthivel</h5>
                   <p className="contact_event">For Event & Publication Query</p>
-                  <Link to="mailto:sakthivel.p@kahedu.edu.in">sakthivel.p@kahedu.edu.in</Link>
+                  <Link to="mailto:sakthivel.p@kahedu.edu.in"> sakthivel.p@kahedu.edu.in</Link>
                   <p>9952806070</p>
                 </div>
                 <div style={{ marginTop: "30px" }}>
                   <h5>Dr. A.Manikandan</h5>
                   <p className="contact_event">For Registration Query </p>
-                  <Link to="mailto:manikandan.ayyar@kahedu.edu.in">manikandan.ayyar@kahedu.edu.in</Link>
+                  <Link to="mailto:manikandan.ayyar@kahedu.edu.in"> manikandan.ayyar@kahedu.edu.in</Link>
                   <p>9884354800</p>
                 </div>
               </div>
