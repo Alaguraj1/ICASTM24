@@ -28,13 +28,13 @@ function HomeThreeHero() {
             >
               <div className="container">
                 <div className="row">
-              
+
                   <div className="col-lg-12">
                     <div className="slider-content text-center">
                       {/* <div className="sub animated">
                       </div> */}
                       <h3 className="animated">
-                        International Conference on Advancements in the Science<br /> and Technology of Materials (ICASTM’24)
+                        International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST)
                       </h3>
                       <p className="banner-date">Date: 29 - 30, January 2024</p>
                       <Link to="/registration" className="animated bisylms-btn-3">
@@ -59,13 +59,13 @@ function HomeThreeHero() {
             >
               <div className="container">
                 <div className="row">
-                <div className="col-lg-12">
+                  <div className="col-lg-12">
                     <div className="slider-content text-center">
                       {/* <div className="sub animated">
                         Organize
                       </div> */}
                       <h3 className="animated">
-                        International Conference on Advancements in the Science<br /> and Technology of Materials (ICASTM’24)
+                        International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST)
                       </h3>
                       <p className="banner-date">Date: 29 - 30, January 2024</p>
                       <Link to="/registration" className="animated bisylms-btn-3">
