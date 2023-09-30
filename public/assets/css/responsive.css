@@ -666,7 +666,9 @@
 	.course-item-4 .course-details {
 	    padding: 40px 40px 0;
 	}
-
+	.join-btn{
+		display: none;
+	}
 }
 /*------------------------------------------------------------------------------------
 / 5. Responsive For Mobile Device

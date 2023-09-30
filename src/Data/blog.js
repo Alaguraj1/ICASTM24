@@ -31,7 +31,7 @@ export const blogs = [
     id: 5,
     img: "assets/images/Balaji.jpg",
     title: "Conference Chair",
-    name:"Prof. Dr. N.V. Balaji",
+    name:"Prof. Dr. N. V. Balaji",
     roll:"<b>Dean</b>,Faculty of Arts, Science, Commerce and Management, Karpagam Academy of Higher Education."
   },
   {
@@ -46,7 +46,7 @@ export const blogs = [
     img: "assets/images/ravi.jpg",
     title: "Co-Convenor",
     name:"Dr. K. Ravichandran",
-    roll:"<b>Associate Professor and Head</b>,<br/> Department of Physics,<br/> A.V.V.M. Sri Pushpam College (Autonomous), Poondi."
+    roll:"<b>Associate Professor and Head</b>,<br/> Department of Physics,<br/> A. V. V. M. Sri Pushpam College (Autonomous), Poondi."
   },
   {
     id: 8,
