@@ -50,25 +50,26 @@ export const course = [
   },
   {
     id: 8,
-    title: "<b>Professor, Department of Sciences,School of Physical Sciences, </b><br/> Amrita Vishwa Vidyapeetham,     Coimbatore, India.",
+    title: "<b>Professor, Department of Sciences, School of Physical Sciences, </b><br/> Amrita Vishwa Vidyapeetham, Coimbatore, India.",
     heading: "Dr. Sudip Kumar Batabyal",
     img: "assets/images/Sudip.jpg",
     courseLink: "/registration",
   },
   {
     id: 9,
-    title: "Manager, <br/>Ametek Instruments India Pvt Ltd Bangalore, India.",
-    heading: "Mr. B. Jayaraj",
-    img: "assets/images/Jayaraj.jpg",
-    courseLink: "/registration",
-  },
-  {
-    id: 10,
     title: "<b>Professor and Head,  Department of Nanotechnology,</b><br/> Noorul Islam Centre for Higher Education, Nagercoil, India.",
     heading: "Dr. P. K. Praseetha",
     img: "assets/images/Praseetha.jpg",
     courseLink: "/registration",
   },
+  {
+    id: 10,
+    title: "Manager, <br/>Ametek Instruments India Pvt Ltd Bangalore, India.",
+    heading: "Mr. B. Jayaraj",
+    img: "assets/images/Jayaraj.jpg",
+    courseLink: "/registration",
+  },
+
   {
     id: 11,
     title: "<b>Scientist</b>,<br/> Bhabha Atomic Research Centre,<br/> Mumbai, India.",

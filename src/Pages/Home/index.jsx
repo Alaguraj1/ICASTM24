@@ -7,7 +7,7 @@ import Footer from "../../Component/Footer/Footer";
 import GotoTop from "../../Component/GotoTop";
 import Event from "../../Component/Event/Event";
 import PopularCourse from '../../Component/Course/PopularCourse'
-import Cta from "../../Component/Cta/Cta";
+// import Cta from "../../Component/Cta/Cta";
 
 
 
@@ -24,7 +24,7 @@ function Home() {
         <Event />
         <PopularTopics />
         <FeatureCourse />
-        <Cta />
+        {/* <Cta /> */}
         <Footer />
         <GotoTop />
       </>

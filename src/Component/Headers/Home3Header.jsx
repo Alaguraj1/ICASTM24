@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function Home3Header() {
   const [activeMobileMenu, setActiveMobileMenu] = useState(false);
-  const [activeMobileSubMenu, setActiveSubMobileMenu] = useState(false);
-  const [categoryOpen, setCategoryOpen] = useState(false);
+  // const [activeMobileSubMenu, setActiveSubMobileMenu] = useState(false);
+  // const [categoryOpen, setCategoryOpen] = useState(false);
   const [filter, setActiveFilter] = useState("Explore");
 
   const windowPosition = useWindowPosition();
