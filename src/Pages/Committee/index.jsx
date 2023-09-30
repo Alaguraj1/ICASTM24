@@ -105,7 +105,7 @@ function Committee() {
                   <li><b>Prof. S. Kumaran</b>, National Institute of Technology, Tiruchirappalli.</li>
                   <li><b>Prof. Mhd. Ikram</b>, National Institute of Technology, Kashmir.</li>
                   <li><b>Prof. N. Ponpandian</b>, Bharathiar University, Coimbatore.</li>
-                  <li><b>Prof. Manoharan</b>, Annamalai University, Chidambaram.</li>
+                  <li><b>Prof. C. Manoharan</b>, Annamalai University, Chidambaram.</li>
                   <li><b>Prof. Manickam Mahendran</b>,  Thiagarajar College of Engineering, Madurai.</li>
                   <li><b>Prof. Venkatesu</b>, University of Delhi, New Delhi.</li>
                   <li><b>Prof. V. Ramasubramanian</b>, Vellore Institute of Technology, Vellore.</li>
