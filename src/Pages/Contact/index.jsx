@@ -21,40 +21,40 @@ function Contact() {
               <Link to="mailto:icramst@kahedu.edu.in"><b>Mail</b>: icramst@kahedu.edu.in</Link>
             </div>
 
-            <div className="row">
+            <div className="row" style={{textAlign:"center"}}>
               <div className="col-md-4">
                 <div>
-                  <h5>Dr. P. Sakthivel</h5>
+                  <h5 style={{marginBottom:"10px"}}>Dr. P. Sakthivel</h5>
                   <p className="contact_event">For Event & Publication Query</p>
-                  <Link to="mailto:sakthivel.p@kahedu.edu.in"> sakthivel.p@kahedu.edu.in</Link>
+                  <Link to="mailto:sakthivel.p@kahedu.edu.in" className="contact-mail"> sakthivel.p@kahedu.edu.in</Link>
                   <p>9952806070</p>
                 </div>
                 <div style={{ marginTop: "30px" }}>
-                  <h5>Dr. A.Manikandan</h5>
+                  <h5 style={{marginBottom:"10px"}}>Dr. A.Manikandan</h5>
                   <p className="contact_event">For Registration Query </p>
-                  <Link to="mailto:manikandan.ayyar@kahedu.edu.in"> manikandan.ayyar@kahedu.edu.in</Link>
+                  <Link to="mailto:manikandan.ayyar@kahedu.edu.in" className="contact-mail"> manikandan.ayyar@kahedu.edu.in</Link>
                   <p>9884354800</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="contact_details">
-                  <h5>Dr. A. Shameem</h5>
+                  <h5 style={{marginBottom:"10px"}}>Dr. A. Shameem</h5>
                   <p className="contact_event">For Technical Query</p>
-                  <Link to="mailto:shameem.abdulsamad@kahedu.edu.in">shameem.abdulsamad@kahedu.edu.in</Link>
+                  <Link to="mailto:shameem.abdulsamad@kahedu.edu.in" className="contact-mail">shameem.abdulsamad@kahedu.edu.in</Link>
                   <p>8248644074</p>
                 </div>
                 <div   style={{ marginTop: "30px" }}>
-                  <h5>Dr. R.Suresh</h5>
+                  <h5 style={{marginBottom:"10px"}}>Dr. R.Suresh</h5>
                   <p className="contact_event">For Accommodation and Travel Query</p>
-                  <Link to="mailto:suresh.ranganathan@kahedu.edu.in">suresh.ranganathan@kahedu.edu.in</Link>
+                  <Link to="mailto:suresh.ranganathan@kahedu.edu.in" className="contact-mail">suresh.ranganathan@kahedu.edu.in</Link>
                   <p>9941091461</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="contact_details">
-                  <h5>Mr. A.Daniel Das</h5>
+                  <h5 style={{marginBottom:"10px"}}>Mr. A.Daniel Das</h5>
                   <p className="contact_event">For Accommodation and Travel Query</p>
-                  <Link to="mailto:danieldas.a@kahedu.edu.in">danieldas.a@kahedu.edu.in</Link>
+                  <Link to="mailto:danieldas.a@kahedu.edu.in" className="contact-mail">danieldas.a@kahedu.edu.in</Link>
                   <p>8248786437</p>
                 </div>
               </div>

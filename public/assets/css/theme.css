@@ -69,6 +69,9 @@
     justify-content: flex-end;
 }
 
+.contact-mail{
+    font-size: 14px !important;
+}
 .navbar-expand-lg .navbar-nav {
     position: relative;
     margin: 0;

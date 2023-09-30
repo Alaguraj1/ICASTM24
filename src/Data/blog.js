@@ -32,7 +32,7 @@ export const blogs = [
     img: "assets/images/Balaji.jpg",
     title: "Conference Chair",
     name:"Prof. Dr. N. V. Balaji",
-    roll:"<b>Dean</b>,Faculty of Arts, Science, Commerce and Management, Karpagam Academy of Higher Education."
+    roll:"<b>Dean</b>, Faculty of Arts, Science, Commerce and Management, Karpagam Academy of Higher Education."
   },
   {
     id: 6,
