@@ -64,7 +64,7 @@ export const course = [
   },
   {
     id: 10,
-    title: "Manager, <br/>Ametek Instruments India Pvt Ltd Bangalore, India.",
+    title: "<b>Manager</b>, <br/>Ametek Instruments India Pvt Ltd Bangalore, India.",
     heading: "Mr. B. Jayaraj",
     img: "assets/images/Jayaraj.jpg",
     courseLink: "/registration",
