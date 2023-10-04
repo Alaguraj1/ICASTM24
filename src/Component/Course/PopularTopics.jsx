@@ -21,7 +21,7 @@ function PopularTopics() {
             <h6>Downloads</h6>
             <ul className="abstract-download">
               <li>Brochure</li>
-              <li><a href="assets/images/abstract_template.pdf" target="_blank" rel="noopener noreferrer" >Abstract Template</a></li>
+              <li><a href="assets/images/abstract_template.docx" target="_blank" rel="noopener noreferrer" >Abstract Template</a></li>
             </ul>
           </div>
         </div>

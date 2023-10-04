@@ -50,12 +50,12 @@ function Home3Header() {
                 style={{ display: activeMobileMenu && "block" }}
               >
                 <ul className="navbar-nav">
-                  <li
+                  {/* <li
                     className="menu-item-has-children"
                     onClick={() => {menuClick()}}
                   >
                     <Link to="/">Home</Link>
-                  </li>
+                  </li> */}
                   <li
                     className="menu-item-has-children"
                     name="about"
@@ -91,9 +91,9 @@ function Home3Header() {
               {/* Nav Menu End  */}
 
               {/* Join Btn  */}
-              <Link to="https://forms.gle/xDV8Wu4WwP5mQq5e7" className="join-btn" target="blank">
+              {/* <Link to="https://forms.gle/xDV8Wu4WwP5mQq5e7" className="join-btn" target="blank">
                 Registration
-              </Link>
+              </Link> */}
               {/* Join Btn  */}
             </nav>
           </div>
