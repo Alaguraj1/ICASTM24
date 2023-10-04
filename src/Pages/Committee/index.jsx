@@ -131,7 +131,7 @@ function Committee() {
                   <li><b>Prof. Ramalingam Gopal</b>, Alagappa University, Karaikudi.</li>
                   <li><b>Prof. Ravithej Singh</b>, Indian Institute of chemical Technology, Hyderabad.</li>
                   <li><b>Prof. P. Hemaprabha </b>, Avinashilingham Institute for Home Science and Higher Education for Women, Coimbatore.</li>
-                  <li><b>Prof. K. Ramachandran</b>,Ramachandran,SRM Institute of Science and Technology, Vadapalani.</li>
+                  <li><b>Prof. K. Ramachandran</b>, SRM Institute of Science and Technology, Vadapalani.</li>
                   <li><b>Prof. Govindasamy Murugadoss</b>, Sathyabama Institute Science and Technology, Chennai.</li>
                   <li><b>Prof. T. Elangovan</b>, Periyar University, Salem.</li>
                   <li><b>Prof. S. Sriram</b>, SASTRA Deemed to be University, Thanjavur.</li>
