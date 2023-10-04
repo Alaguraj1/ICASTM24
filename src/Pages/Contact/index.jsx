@@ -16,7 +16,7 @@ function Contact() {
           <div className="container">
             {/* <h2 style={{ marginBottom: "50px" }}>Contact Us</h2> */}
             <div style={{textAlign:"center",marginBottom:"50px"}}>
-              <h5 style={{marginBottom:"10px"}}> International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST)</h5>
+              <h5 style={{marginBottom:"10px"}}> International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST'24)</h5>
               <p  style={{marginBottom:"7px",fontSize: "14px", color:"black",lineHeight:"20px", fontWeight:"600"}}>Karpagam Academy of Higher Education,<br/> Coimbatore-641 021,<br/> Tamilnadu, India.</p>
               <Link to="mailto:icramst@kahedu.edu.in"><b>Mail</b>: icramst@kahedu.edu.in</Link>
             </div>
