@@ -97,7 +97,7 @@ function Event() {
           <div className="col-md-6">
             <div className="event-item-1">
               <div className="e-date">
-                29-30 <span>JAN- 2024</span>
+                29 & 30 <span>JAN- 2024</span>
               </div>
               {/* <p>
                 <i className="icon_pin_alt"></i>Texas, US

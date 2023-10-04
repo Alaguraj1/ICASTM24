@@ -47,7 +47,7 @@ function Committee() {
                   <li><b>Dr. M. Gomathi</b>, Assistant Professor, Department of Biotechnology, KAHE.</li>
                   <li><b>Dr. M. Bharathi</b>, Assistant Professor, Department of Biochemistry, KAHE.</li>
                   <li><b>Dr. V. Dhivya</b>, Assistant Professor, Department of Biotechnology, KAHE.</li>
-                  <li><b>Dr. D. Prabhu</b>,  Assistant Professor, Department of Biochemistry, KAHE.</li>
+                  <li><b>Dr. D. Prabhu</b>,  Assistant Professor, Department of Biotechnology,, KAHE.</li>
                 </ul>
               </div>
             </div>
@@ -130,8 +130,8 @@ function Committee() {
                   <li><b>Prof. T. C. Sabari Girisun</b>, Bharathidasan University, Tiruchirappalli.</li>
                   <li><b>Prof. Ramalingam Gopal</b>, Alagappa University, Karaikudi.</li>
                   <li><b>Prof. Ravithej Singh</b>, Indian Institute of chemical Technology, Hyderabad.</li>
-                  <li><b>Prof. P. Hemaprabha Avinashilingham</b>, Institute for Home Science and Higher Education for Women, Coimbatore.</li>
-                  <li><b>Prof. K. Ramachandran</b>, SRM University, Vadapalani.</li>
+                  <li><b>Prof. P. Hemaprabha </b>, Avinashilingham Institute for Home Science and Higher Education for Women, Coimbatore.</li>
+                  <li><b>Prof. K. Ramachandran</b>,Ramachandran,SRM Institute of Science and Technology, Vadapalani.</li>
                   <li><b>Prof. Govindasamy Murugadoss</b>, Sathyabama Institute Science and Technology, Chennai.</li>
                   <li><b>Prof. T. Elangovan</b>, Periyar University, Salem.</li>
                   <li><b>Prof. S. Sriram</b>, SASTRA Deemed to be University, Thanjavur.</li>

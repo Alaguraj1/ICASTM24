@@ -30,8 +30,8 @@ function PopularCourse({ course, heading }) {
           </div>
           <div className=" col-md-6 ">
             <div className="ab-content">
-              <h3>About ICASTM’2024</h3>
-              <p>The International Conference on Advancements in the Science and Technology of Materials (ICASTM’24) intended to provide a common platform for knowledge sharing among Researchers, Academicians, Practitioners and Industrialists in the areas related to Science, Engineering and Technology. It provides a forum for discussing the most recent innovations, trends, experiences and concerns.</p>
+              <h3>About ICRAMST’24</h3>
+              <p>The International Conference on Recent Advancements in Materials Science and Technology  (ICRAMST’24) intended to provide a common platform for knowledge sharing among Researchers, Academicians, Practitioners and Industrialists in the areas related to Science, Engineering and Technology. It provides a forum for discussing the most recent innovations, trends, experiences and concerns.</p>
               <p>It will also stimulate efforts to integrate the latest approaches to strengthen and help in shaping its future by fostering communication among participants. The conference will also include keynote addresses by renowned Academicians, Scientists, and Industrialists from the Leading organizations. The conference will provide the authors and listeners with opportunities for National and International collaboration and networking among the Institutions from India and abroad for promoting research and developing technologies. </p>
             </div>
           </div>
