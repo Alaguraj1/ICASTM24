@@ -79,7 +79,7 @@ export const course = [
   },
   {
     id: 12,
-    title: "Professor,<br/> Faculty of Engineering and Sciences Adolfo Ibanez University Viña del Mar Campus, Chile. ",
+    title: "Professor,<br/> Adolfo Ibanez University Vina del Mar Campus, Chile. ",
     heading: "Dr. Juan Francisco Vivanco",
     img: "assets/images/Juan.jpg",
     courseLink: "/registration",
