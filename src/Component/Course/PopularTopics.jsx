@@ -18,11 +18,11 @@ function PopularTopics() {
         <div className="row">
           <div className="col-md-12 text-center">
             <h2 className="sec-title mb-15">Popular Topics</h2>
-            <h6>Downloads</h6>
+            {/* <h6>Downloads</h6>
             <ul className="abstract-download">
               <li>Brochure</li>
               <li><a href="assets/images/abstract_template.docx" target="_blank" rel="noopener noreferrer" >Abstract Template</a></li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="row">

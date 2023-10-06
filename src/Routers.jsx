@@ -6,6 +6,7 @@ import ChiefGuests from "./Pages/Chief-Guests";
 import Committee from "./Pages/Committee";
 import Contact from "./Pages/Contact";
 import CallForPapers from "./Pages/Call-For-Papers"
+import Downloads from "./Pages/Downloads";
 
 const router = createBrowserRouter([
 
@@ -35,7 +36,10 @@ const router = createBrowserRouter([
     path: "/committee",
     element: <Committee />,
   },
-
+{
+path: "/downloads",
+element: <Downloads />
+},
   {
     path: "/contact",
     element: <Contact />,

@@ -83,6 +83,12 @@ function Home3Header() {
                   >
                     <Link to="/committee">Committee</Link>
                   </li>
+                  <li
+                    className="menu-item-has-children"
+                    onClick={() => {menuClick()}}
+                  >
+                    <Link to="/downloads">Downloads</Link>
+                  </li>
                   <li   className="menu-item-has-children" onClick={() => {menuClick()}}>
                     <Link to="/contact">Contact</Link>
                   </li>
