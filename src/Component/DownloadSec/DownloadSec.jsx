@@ -8,7 +8,7 @@ const DownloadSec = () => {
             <div className="container">
                 <div className='row Download-main'>
                     <div className='col-md-6'>
-                    <h3 className=' Download-Head'>Downloads</h3>
+                        <h3 className=' Download-Head'>Downloads</h3>
                         <ul style={{ paddingLeft: "0px" }}>
                             <div className="ci-item with-bg Download-List">
                                 <h5>

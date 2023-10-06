@@ -276,6 +276,34 @@
 	}
 
 }
+@media(max-width: 1025px){
+	.navbar.navbar-expand-lg .navbar-toggler {
+	    width: 40px;
+	    height: 35px;
+	    padding: 1px;
+	    outline: none;
+	    border-radius: 3px;
+	    color: #2c234d;
+	    background: #fff;
+	    border: none;
+	    font-size: 20px;
+	    line-height: 34px;
+	}
+	.header-03 .navbar.navbar-expand-lg .navbar-toggler{
+		background: #f1f0f5;
+	}
+	.navbar-expand-lg .navbar-nav li{
+		margin: 0;
+		border-bottom: 1px solid rgba(35, 47, 62, 0.07);
+	}
+	.navbar-expand-lg .navbar-nav li a{
+		padding: 0 20px;
+		font-size: 14px;
+	    color: #5d5a67;
+	    width: 100%;
+		line-height: 45px;
+	}
+}
 /*------------------------------------------------------------------------------------
 / 3. Responsive For Tab Device
 /--------------------------------------------------------------------------------------*/
