@@ -7,7 +7,7 @@ const DownloadSec = () => {
         >
             <div className="container">
                 <div className='row Download-main'>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 Download-Sec1'>
                         <h3 className=' Download-Head'>Downloads</h3>
                         <ul style={{ paddingLeft: "0px" }}>
                             <div className="ci-item with-bg Download-List">
@@ -25,7 +25,7 @@ const DownloadSec = () => {
                         </ul>
                     </div>
                     <div className='col-md-6'>
-                        <img src="/assets/images/nanomaterials.jpg" alt="" className="nanomaterial" />
+                        <img src="/assets/images/Download.jpg" alt="" style={{width:"100%"}} />
                     </div>
                 </div>
 
