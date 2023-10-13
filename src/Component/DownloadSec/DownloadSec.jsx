@@ -13,7 +13,7 @@ const DownloadSec = () => {
                             <div className="ci-item with-bg Download-List">
                                 <h5>
                                     <i class="fa fa-download" aria-hidden="true"></i>
-                                    <a href="assets/images/abstract_template.docx" target="_blank" rel="noopener noreferrer" >Brochure</a>
+                                    <a href="assets/images/Brochure.pdf" target="_blank" rel="noopener noreferrer" >Brochure</a>
                                 </h5>
                             </div>
                             <div className="ci-item with-bg ">
