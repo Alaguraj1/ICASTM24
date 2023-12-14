@@ -61,13 +61,13 @@ function Contact() {
             </div>
             <div className="row">
               <h3 className=" col-12 sponsors_head" >Sponsors</h3>
-              <div className="col-md-4 sponsor-cover">
+              <div className="col-md-6 sponsor-cover">
                 <img src="assets/images/sponsor-logo-1.jpg" alt="" />
               </div>
-              <div className="col-md-4 sponsor-cover">
+              {/* <div className="col-md-4 sponsor-cover">
                 <img src="assets/images/sponsor-logo-2.jpg" alt="" />
-              </div>
-              <div className="col-md-4 sponsor-cover">
+              </div> */}
+              <div className="col-md-6 sponsor-cover">
                 <img src="assets/images/sponsor-logo-3.jpg" alt="" />
               </div>
             </div>

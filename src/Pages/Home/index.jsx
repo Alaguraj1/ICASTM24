@@ -12,23 +12,23 @@ import PopularCourse from '../../Component/Course/PopularCourse'
 
 
 function Home() {
-   return(
-      <>
-        <Home3Header />
-        <HomeThreeHero />
-        <FeatureHome3 />
-        <div className="container">
-          <h2 className=" text-center topic"> International Conference on Recent Advancements in Materials Science and Technology (ICRAMST'24)</h2>
-        </div>
-        <PopularCourse />
-        <Event />
-        <PopularTopics />
-        <FeatureCourse />
-        {/* <Cta /> */}
-        <Footer />
-        <GotoTop />
-      </>
-    );
-  }
-  
+  return (
+    <>
+      <Home3Header />
+      <HomeThreeHero />
+      <FeatureHome3 />
+      <div className="container">
+        <h2 className=" text-center topic">DST-SERB Sponsored International Conference on Recent Advancements in Materials Science and Technology (ICRAMST'24)</h2>
+      </div>
+      <PopularCourse />
+      <Event />
+      <PopularTopics />
+      <FeatureCourse />
+      {/* <Cta /> */}
+      <Footer />
+      <GotoTop />
+    </>
+  );
+}
+
 export default Home;

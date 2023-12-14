@@ -14,9 +14,8 @@ function Paper() {
                     <div className="col-lg-8 call-paper">
                         <h3>Call for Papers</h3>
                         <p>
-                            Authors are invited to submit their original and unpublished work for the conference. All the abstracts of the accepted/presented papers will be published in the conference proceedings (with ISBN). After a double-blind review of the full-length paper the selected manuscripts will be published in Web of Science, Scopus, INSPEC and Chemical Abstracts Service indexed conference proceedings.
-                            We are also planning to publish the selected papers in SCI, SCOPUS indexed Journals based on the quality and merit of the work.
-                            The theme of the conference covers a broad spectrum of Materials Science.
+                            Authors are invited to submit their original and unpublished work for the conference. All the abstracts of the accepted/presented papers will be published in the conference proceedings (with ISBN). After a double-blind review of the selected full-length paper will be published in Springer
+                            (Proceedings) Book series (Scopus indexed), Note: No publication fee. The theme of the conference covers a broad spectrum of Materials Science.
                         </p>
                     </div>
                 </div>

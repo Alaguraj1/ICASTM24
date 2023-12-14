@@ -14,7 +14,7 @@ function Home3Header() {
     setActiveFilter(e.target.innerText);
   };
   const menuClick = (() => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0)
   })
   return (
     <header
@@ -29,7 +29,7 @@ function Home3Header() {
               <Link className="navbar-brand" to="/">
                 {/* <img src="assets/images/ICASTM-Logo.png" alt="" /> */}
                 <h3 className="logo-head">ICRAMST'24</h3>
-                <p className="logo-para"> International Conference on Recent<br/> Advancements in Materials Science and Technology </p>
+                <p className="logo-para">DST-SERB Sponsored International Conference on Recent<br /> Advancements in Materials Science and Technology </p>
 
               </Link>
               {/* logo End */}
@@ -59,37 +59,43 @@ function Home3Header() {
                   <li
                     className="menu-item-has-children"
                     name="about"
-                    onClick={() => {menuClick()}}
+                    onClick={() => { menuClick() }}
                   >
                     {/* <a>Pages</a> */}
                     <Link to="/about">About</Link>
                   </li>
 
-                  <li className="menu-item-has-children"   onClick={() => {menuClick()}}>
+                  <li className="menu-item-has-children" onClick={() => { menuClick() }}>
                     <Link to="/chief-guests">Chief Guests</Link>
                   </li>
 
-                  <li className="menu-item-has-children"  onClick={() => {menuClick()}}>
+                  <li className="menu-item-has-children" onClick={() => { menuClick() }}>
                     <Link to="/call-for-papers">Call For Papers</Link>
                   </li>
 
-                  <li className="menu-item-has-children"   onClick={() => {menuClick()}}>
+                  <li className="menu-item-has-children" onClick={() => { menuClick() }}>
                     <Link to="/registration">Registration</Link>
                   </li>
 
                   <li
                     className="menu-item-has-children"
-                    onClick={() => {menuClick()}}
+                    onClick={() => { menuClick() }}
                   >
                     <Link to="/committee">Committee</Link>
                   </li>
                   <li
                     className="menu-item-has-children"
-                    onClick={() => {menuClick()}}
+                    onClick={() => { menuClick() }}
                   >
                     <Link to="/downloads">Downloads</Link>
                   </li>
-                  <li   className="menu-item-has-children" onClick={() => {menuClick()}}>
+                  <li
+                    className="menu-item-has-children"
+                    onClick={() => { menuClick() }}
+                  >
+                    <Link to="/publication">Publication</Link>
+                  </li>
+                  <li className="menu-item-has-children" onClick={() => { menuClick() }}>
                     <Link to="/contact">Contact</Link>
                   </li>
                 </ul>

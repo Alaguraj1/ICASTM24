@@ -4,7 +4,7 @@ import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
 import GotoTop from "../../Component/GotoTop";
 import Paper from "../../Component/Papers/Paper";
-import PopularTopics from "../../Component/Course/PopularTopics";
+import PopularTopics2 from "../../Component/Course/PopularTopics2";
 
 function About() {
 return (
@@ -12,7 +12,7 @@ return (
         <Home3Header joinBtn={true} />
         <Banner title="Call For Papers" background="assets/images/inner-banner.jpg" />
         <Paper />
-        <PopularTopics/>
+        <PopularTopics2/>
         <Footer />
         <GotoTop />
       </>

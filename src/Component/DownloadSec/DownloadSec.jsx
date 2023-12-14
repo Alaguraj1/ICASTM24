@@ -10,10 +10,16 @@ const DownloadSec = () => {
                     <div className='col-md-6 Download-Sec1'>
                         <h3 className=' Download-Head'>Downloads</h3>
                         <ul style={{ paddingLeft: "0px" }}>
-                            <div className="ci-item with-bg Download-List">
+                             <div className="ci-item with-bg Download-List">
                                 <h5>
                                     <i class="fa fa-download" aria-hidden="true"></i>
                                     <a href="assets/images/Brochure.pdf" target="_blank" rel="noopener noreferrer" >Brochure</a>
+                                </h5>
+                            </div>
+                            <div className="ci-item with-bg Download-List">
+                                <h5>
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                    <a href="assets/images/Flyer.pdf" target="_blank" rel="noopener noreferrer" >flyer</a>
                                 </h5>
                             </div>
                             <div className="ci-item with-bg ">

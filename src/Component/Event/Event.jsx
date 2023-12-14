@@ -31,7 +31,7 @@ function Event() {
           <div className="col-md-6">
             <div className="event-item-1">
               <div className="e-date">
-              15<span>DEC-2023</span>
+              15<span>JAN-2024</span>
               </div>
               {/* <p>
                 <i className="icon_pin_alt"></i>Vancouver, Canada
@@ -47,7 +47,7 @@ function Event() {
           <div className="col-md-6">
             <div className="event-item-1">
               <div className="e-date">
-                20 <span>DEC-2023</span>
+                20 <span>JAN-2024</span>
               </div>
               {/* <p>
                 <i className="icon_pin_alt"></i>Chicago, US
@@ -63,7 +63,7 @@ function Event() {
           <div className="col-md-6">
             <div className="event-item-1">
               <div className="e-date">
-                05 <span>JAN-2024</span>
+                20 <span>JAN-2024</span>
               </div>
               {/* <p>
                 <i className="icon_pin_alt"></i>Texas, US

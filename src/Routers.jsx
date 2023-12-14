@@ -7,6 +7,7 @@ import Committee from "./Pages/Committee";
 import Contact from "./Pages/Contact";
 import CallForPapers from "./Pages/Call-For-Papers"
 import Downloads from "./Pages/Downloads";
+import Publication from "./Pages/Publication";
 
 const router = createBrowserRouter([
 
@@ -43,6 +44,10 @@ element: <Downloads />
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/publication",
+    element: <Publication />,
   },
 ]);
 

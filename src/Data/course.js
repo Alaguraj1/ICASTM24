@@ -2,7 +2,7 @@ export const course = [
   {
     id: 1,
     heading: "Prof. S. Asokan",
-    title: "Dean, Faculty of Science, Indian Institute of Science,<br/> Bangalore, India.",
+    title: "Dean, Faculty of Science,<br/> Indian Institute of Science,<br/> Bangalore, India.",
     img: "assets/images/Asokan.jpg",
     courseLink: "/registration",
   },
