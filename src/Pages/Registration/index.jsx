@@ -310,7 +310,7 @@ function Registration() {
                   <div className="col-md-12 reg_details">
                     <h5>Registration FEE </h5>
                     <p className="reg_li"><b>For Indian Participants</b> : ₹ 1,200<br />
-                      <b>For Foreigners</b>: ₹ 4,250/-</p>
+                      <b>For Foreigners</b>: ₹ 4,250</p>
                     <p className="reg_paid">₹ 600 has to be paid as participation fee for additional members.</p>
 
                     <h6>Note :</h6>

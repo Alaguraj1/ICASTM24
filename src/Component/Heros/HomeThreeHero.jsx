@@ -34,7 +34,7 @@ function HomeThreeHero() {
                       {/* <div className="sub animated">
                       </div> */}
                       <h3 className="animated">
-                      DST-SERB Sponsored International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST'24)
+                      SERB Sponsored International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST'24)
                       </h3>
                       <p className="banner-date">Date: 29 - 30, January 2024</p>
                       <p className="banner-place">Karpagam Academy of Higher Education, <br/>Coimbatore-641 021,<br/> Tamilnadu, India.</p>
@@ -66,7 +66,7 @@ function HomeThreeHero() {
                         Organize
                       </div> */}
                       <h3 className="animated">
-                      DST-SERB Sponsored International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST'24)
+                      SERB Sponsored International Conference on Recent Advancements in Materials<br/> Science and Technology (ICRAMST'24)
                       </h3>
                       <p className="banner-date">Date: 29 - 30, January 2024</p>
                       <p className="banner-place">Karpagam Academy of Higher Education,<br/> Coimbatore-641 021, <br/>Tamilnadu, India.</p>

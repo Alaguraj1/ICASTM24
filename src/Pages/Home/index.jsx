@@ -18,7 +18,7 @@ function Home() {
       <HomeThreeHero />
       <FeatureHome3 />
       <div className="container">
-        <h2 className=" text-center topic">DST-SERB Sponsored International Conference on Recent Advancements in Materials Science and Technology (ICRAMST'24)</h2>
+        <h2 className=" text-center topic">SERB Sponsored International Conference on Recent Advancements in Materials Science and Technology (ICRAMST'24)</h2>
       </div>
       <PopularCourse />
       <Event />
