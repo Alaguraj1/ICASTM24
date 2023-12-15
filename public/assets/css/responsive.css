@@ -172,6 +172,7 @@
 	}
 	.feature-item{
 		min-height: 330px;
+		margin-bottom: 30px;
 	}
 	.ml-15,
 	.ml-40 {
